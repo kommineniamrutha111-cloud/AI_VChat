@@ -60,9 +60,6 @@ data/                        # Downloads, audio, transcripts, thumbnails
 docs/                        # Architecture notes & design docs
 scripts/                     # Utility scripts and smoke tests
 ```
-## 🏗️ Architecture
-
-![architecture](https://raw.githubusercontent.com/kommineniamrutha111-cloud/AI_VChat/refs/heads/main/PROJ_IMAGES/Architecture.png)
 
 ## Running Notes
 - Whisper models are cached under `<project>/models`. Delete that folder to force a re-download.
@@ -72,6 +69,9 @@ scripts/                     # Utility scripts and smoke tests
 
 
 # Project Architecture Plan
+
+## 🏗️ Architecture
+![architecture](https://raw.githubusercontent.com/kommineniamrutha111-cloud/AI_VChat/refs/heads/main/PROJ_IMAGES/Architecture.png)
 
 ## Objectives
 - Streamlit single-page app providing two ingestion modes: YouTube URL or local video path.
