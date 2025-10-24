@@ -9,6 +9,10 @@ Local-first Streamlit application that downloads long-form videos, extracts audi
 - Streamlit chat interface with optional time-window filtering.
 - Modular service layer to swap out tooling (Whisper/Ollama/etc.).
 
+## Ui
+
+![architecture](https://raw.githubusercontent.com/kommineniamrutha111-cloud/AI_VChat/refs/heads/main/PROJ_IMAGES/ui.png)
+
 ## Prerequisites
 - Python 3.10+ (matching your CUDA-enabled PyTorch build).
 - FFmpeg available on your `PATH`.
