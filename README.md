@@ -1,6 +1,7 @@
 # AI Video Chat
 
-Local-first Streamlit application that downloads long-form videos, extracts audio, transcribes them with Whisper, and lets you chat with the resulting transcript using an Ollama model.
+Streamlit application that downloads long-form videos, extracts audio, transcribes them with Whisper, and lets you chat with the resulting transcript using an Ollama model
+(this will make us feel like we are chatting with the video itself, in later builds i will implement features that will injest image chunks of the video to ai so it will have even more context of what's happening in the video).
 
 ## Features
 - Ingest via YouTube URL (yt-dlp) or local file path.
