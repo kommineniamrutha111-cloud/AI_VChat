@@ -58,7 +58,7 @@ scripts/                     # Utility scripts and smoke tests
 ```
 ## 🏗️ Architecture
 
-![architecture](/assets/rag-bot-fastapi-architecture.png)
+![architecture](https://raw.githubusercontent.com/kommineniamrutha111-cloud/AI_VChat/refs/heads/main/PROJ_IMAGES/Architecture.png)
 
 ## Running Notes
 - Whisper models are cached under `<project>/models`. Delete that folder to force a re-download.
